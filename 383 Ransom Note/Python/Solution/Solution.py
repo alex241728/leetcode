@@ -1,0 +1,13 @@
+from typing import Dict, Self
+
+
+class Solution:
+    def canConstruct(self: Self, ransomNote: str, magazine: str) -> bool:
+        if len(ransomNote) > len(magazine):
+            return False
+        
+        for c in set(ransomNote):
+            if magazine.count(c) < ransomNote.count(c):
+                return False
+            
+        return True
