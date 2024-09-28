@@ -1,9 +1,10 @@
-public class ReverseInteger {
+public class Solution {
     public int reverse(int x) {
         int res = 0;
 
         while (x != 0) {
             int digit = x % 10;
+
             if (x > 0 && res > (Integer.MAX_VALUE - digit) / 10) {
                 return 0;
             }
@@ -12,9 +13,9 @@ public class ReverseInteger {
             }
             
             res = res * 10 + digit;
+
             x /= 10;
         }
-
         return res;
     }
 }
