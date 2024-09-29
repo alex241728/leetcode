@@ -14,7 +14,7 @@ $(TARGET): $(OBJS)
 
 .PHONY: clean
 clean:
-	rm -f *.o main
+	rm -f $(OBJS) $(TARGET)
 
 .PHONY: run
 run: $(TARGET)
