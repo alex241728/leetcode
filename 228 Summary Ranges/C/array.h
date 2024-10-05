@@ -1,0 +1,1 @@
+void printStringArray(char** strs, int size);
