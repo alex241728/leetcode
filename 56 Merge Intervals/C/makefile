@@ -1,5 +1,5 @@
 CC = gcc
-# CFLAGS = -Wall -O2 -Werror
+CFLAGS = -Wall -O2 -Werror
 
 TARGET = main
 SRCS = main.c solution.c array.c
