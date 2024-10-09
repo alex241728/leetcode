@@ -1,6 +1,6 @@
 #include <limits.h>
-#include <stdio.h>
-#include <stdlib.h>
+
+#include "solution.h"
 
 int reverse(int x) {
     int res = 0;
@@ -18,26 +18,4 @@ int reverse(int x) {
     }
 
     return res;
-}
-
-int main() {
-    /*
-        Input: x = 123
-        Output: 321
-    */
-    printf("%d\n", reverse(123));
-
-    /*
-        Input: x = -123
-        Output: -321
-    */
-    printf("%d\n", reverse(-123));
-
-    /*
-        Input: x = 120
-        Output: 21
-    */
-    printf("%d\n", reverse(120));
-
-    return 0;
 }
