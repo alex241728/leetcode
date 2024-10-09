@@ -5,6 +5,8 @@
 #include <limits.h>
 #include <string.h>
 
+#include "solution.h"
+
 int myAtoi(char* s) {
     size_t len = strlen(s);
     int i = 0;
