@@ -28,7 +28,7 @@ char* longestPalindrome(char* s) {
     }
 
     int resultLen = end - start + 1;
-    char* result = (char*) malloc(sizeof(char) * resultLen);
+    char* result = (char*) malloc(sizeof(char) * (resultLen + 1));
     strncpy(result, s + start, resultLen);
     result[resultLen] = '\0';
     return result;
