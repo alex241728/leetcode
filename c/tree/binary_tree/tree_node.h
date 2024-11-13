@@ -4,7 +4,7 @@ struct TreeNode {
     struct TreeNode* right;
 };
 
-struct TreeNode* createTreeNode(int val);
+struct TreeNode* createTreeNode(int val, struct TreeNode* left, struct TreeNode* right);
 
 void freeAll(struct TreeNode* root);
 

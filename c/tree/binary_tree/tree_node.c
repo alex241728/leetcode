@@ -4,11 +4,11 @@
 #include "tree_node.h"
 #include "../../queue/queue_node.h"
 
-struct TreeNode* createTreeNode(int val) {
+struct TreeNode* createTreeNode(int val, struct TreeNode* left, struct TreeNode* right) {
     struct TreeNode* newNode = (struct TreeNode*) malloc(sizeof(struct TreeNode));
     newNode->val = val;
-    newNode->left = NULL;
-    newNode->right = NULL;
+    newNode->left = left;
+    newNode->right = right;
     return newNode;
 }
 
