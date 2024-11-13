@@ -14,7 +14,7 @@ class Solution:
     def __isMirror(left: Optional[TreeNode], right: Optional[TreeNode]) -> bool:
         if not left and not right:
             return True
-        elif left or right:
+        elif not left or not right:
             return False
 
         return (
