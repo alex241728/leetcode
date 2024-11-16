@@ -2,7 +2,7 @@ package path_sum_112;
 
 import tree.binary_tree.TreeNode;
 
-public class Solution {
+class Solution {
   public boolean hasPathSum(TreeNode root, int targetSum) {
     if (root == null) {
       return false;

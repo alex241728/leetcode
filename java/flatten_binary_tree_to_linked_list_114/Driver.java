@@ -4,7 +4,7 @@ import tree.binary_tree.TreeNode;
 
 import static tree.binary_tree.TreeTraversal.printLevelOrder;
 
-public class Driver {
+class Driver {
   public static void main(String[] args) {
     IterativeSolution is = new IterativeSolution();
     RecursiveSolution rs = new RecursiveSolution();

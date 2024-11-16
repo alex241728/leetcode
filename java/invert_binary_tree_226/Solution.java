@@ -2,7 +2,7 @@ package invert_binary_tree_226;
 
 import tree.binary_tree.TreeNode;
 
-public class Solution {
+class Solution {
   public TreeNode invertTree(TreeNode root) {
     if (root == null) {
       return root;

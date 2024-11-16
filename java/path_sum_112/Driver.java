@@ -2,7 +2,7 @@ package path_sum_112;
 
 import tree.binary_tree.TreeNode;
 
-public class Driver {
+class Driver {
   public static void main(String[] args) {
     Solution s = new Solution();
 

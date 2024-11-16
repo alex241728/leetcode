@@ -2,7 +2,7 @@ package flatten_binary_tree_to_linked_list_114;
 
 import tree.binary_tree.TreeNode;
 
-public class RecursiveSolution {
+class RecursiveSolution {
   private TreeNode prev = null;
 
   public void flatten(TreeNode root) {

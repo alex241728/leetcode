@@ -2,7 +2,7 @@ package symmetric_tree_101;
 
 import tree.binary_tree.TreeNode;
 
-public class Solution {
+class Solution {
   public boolean isSymmetric(TreeNode root) {
     if (root == null) {
       return true;

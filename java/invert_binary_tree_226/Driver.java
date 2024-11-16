@@ -3,7 +3,7 @@ package invert_binary_tree_226;
 import tree.binary_tree.TreeNode;
 import tree.binary_tree.TreeTraversal;
 
-public class Driver {
+class Driver {
   public static void main(String[] args) {
     Solution s = new Solution();
 
