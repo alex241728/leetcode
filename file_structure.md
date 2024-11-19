@@ -1,4 +1,5 @@
 # File Structure
+Use "tree LeetCode /f /a > output.txt" to generate such a tree.
 ```
 LeetCode
 ├── c
