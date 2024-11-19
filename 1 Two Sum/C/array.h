@@ -1,1 +1,0 @@
-void printArray(int* a, int size);

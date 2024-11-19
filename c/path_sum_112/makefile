@@ -52,4 +52,4 @@ run: $(EXECUTABLE)
 
 # clean
 clean:
-	rm -rf $(OUT_DIR)
+	rm -rf $(OUT_DIR)/tree/binary_tree $(OUT_DIR)/queue $(OUT_DIR)/path_sum_112

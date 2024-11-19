@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "array.h"
+#include "../array/array.h"
 #include "solution.h"
 
 int main() {
@@ -25,7 +25,7 @@ int main() {
         nums[i] = example1[i];
     }
     ret = twoSum(nums, numsSize, 9, &retSize);
-    printArray(ret, retSize);
+    printIntArray(ret, retSize);
     free(nums);
     nums = NULL;
     free(ret);
@@ -45,7 +45,7 @@ int main() {
         nums[i] = example2[i];
     }
     ret = twoSum(nums, numsSize, 6, &retSize);
-    printArray(ret, retSize);
+    printIntArray(ret, retSize);
     free(nums);
     nums = NULL;
     free(ret);
@@ -65,7 +65,7 @@ int main() {
         nums[i] = example3[i];
     }
     ret = twoSum(nums, numsSize, 6, &retSize);
-    printArray(ret, retSize);
+    printIntArray(ret, retSize);
     free(nums);
     nums = NULL;
     free(ret);
