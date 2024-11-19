@@ -1,3 +1,6 @@
 /java/out/
+
 /python/.idea
 __pycache__/
+
+/c/out/
