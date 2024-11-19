@@ -3,9 +3,9 @@ CFLAGS = -Wall -O2 -Werror
 
 # directories
 OUT_DIR = ../out
-TREE_DIR = $(OUT_DIR)/tree/binary_tree
 QUEUE_DIR = $(OUT_DIR)/queue
-SOLUTION_DIR = $(OUT_DIR)/invent_binary_tree_226
+TREE_DIR = $(OUT_DIR)/tree/binary_tree
+SOLUTION_DIR = $(OUT_DIR)/path_sum_112
 
 # source files
 TREE_NODE_SRC = ../tree/binary_tree/tree_node.c
