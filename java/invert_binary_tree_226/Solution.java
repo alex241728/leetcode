@@ -1,6 +1,6 @@
 package invert_binary_tree_226;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
 class Solution {
   public TreeNode invertTree(TreeNode root) {

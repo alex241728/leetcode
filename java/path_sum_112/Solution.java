@@ -1,6 +1,6 @@
 package path_sum_112;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
 class Solution {
   public boolean hasPathSum(TreeNode root, int targetSum) {

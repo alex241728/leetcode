@@ -1,6 +1,6 @@
 package construct_binary_tree_from_inorder_and_postorder_traversal_106;
 
-import static tree.binary_tree.TreeTraversal.printLevelOrder;
+import static libraries.tree.binary_tree.TreeNode.printLevelOrder;
 
 class Driver {
   public static void main(String[] args) {

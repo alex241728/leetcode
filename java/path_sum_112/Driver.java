@@ -1,6 +1,6 @@
 package path_sum_112;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
 class Driver {
   public static void main(String[] args) {
@@ -23,7 +23,7 @@ class Driver {
     /*
      Input: root = [1,2,3], targetSum = 5
      Output: false
-     Explanation: There are two root-to-leaf paths in the tree:
+     Explanation: There are two root-to-leaf paths in the libraries.tree:
      (1 --> 2): The sum is 3.
      (1 --> 3): The sum is 4.
      There is no root-to-leaf path with sum = 5.
@@ -34,7 +34,7 @@ class Driver {
     /*
      Input: root = [], targetSum = 0
      Output: false
-     Explanation: Since the tree is empty, there are no root-to-leaf paths.
+     Explanation: Since the libraries.tree is empty, there are no root-to-leaf paths.
     */
     System.out.println(s.hasPathSum(null, 0));
   }

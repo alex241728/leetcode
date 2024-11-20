@@ -1,8 +1,8 @@
 package flatten_binary_tree_to_linked_list_114;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
-import static tree.binary_tree.TreeTraversal.printLevelOrder;
+import static libraries.tree.binary_tree.TreeNode.printLevelOrder;
 
 class Driver {
   public static void main(String[] args) {
