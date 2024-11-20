@@ -1,6 +1,6 @@
 package populating_next_right_pointers_in_each_node_ii_117;
 
-import tree.level_connected_tree.Node;
+import libraries.tree.binary_tree.level_connected_tree.Node;
 
 import java.util.LinkedList;
 import java.util.Queue;

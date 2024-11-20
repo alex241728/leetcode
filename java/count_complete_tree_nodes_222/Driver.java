@@ -1,6 +1,6 @@
 package count_complete_tree_nodes_222;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
 class Driver {
   public static void main(String[] args) {

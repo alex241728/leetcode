@@ -1,6 +1,6 @@
 package sum_root_to_leaf_numbers_129;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
 class Driver {
   public static void main(String[] args) {

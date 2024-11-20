@@ -1,9 +1,25 @@
-package tree.level_connected_tree;
+package libraries.tree.binary_tree.level_connected_tree;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class TreeTraversal {
+public class Node {
+  public int val;
+  public Node left;
+  public Node right;
+  public Node next;
+
+  public Node(int val) {
+      this.val = val;
+  }
+
+  public Node(int val, Node left, Node right, Node next) {
+    this.val = val;
+    this.left = left;
+    this.right = right;
+    this.next = next;
+  }
+
   public static void printLevelOrder(Node root) {
     if (root == null) {
       return;

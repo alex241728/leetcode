@@ -1,6 +1,6 @@
 package construct_binary_tree_from_preorder_and_inorder_traversal_105;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;

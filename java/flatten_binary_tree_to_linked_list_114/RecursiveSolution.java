@@ -1,6 +1,6 @@
 package flatten_binary_tree_to_linked_list_114;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
 class RecursiveSolution {
   private TreeNode prev = null;

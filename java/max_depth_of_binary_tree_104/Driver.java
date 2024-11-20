@@ -1,6 +1,6 @@
 package max_depth_of_binary_tree_104;
 
-import tree.binary_tree.TreeNode;
+import libraries.tree.binary_tree.TreeNode;
 
 class Driver {
   public static void main(String[] args) {
