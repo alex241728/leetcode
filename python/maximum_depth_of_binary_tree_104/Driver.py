@@ -10,7 +10,9 @@ class Driver:
             Input: root = [3,9,20,null,null,15,7]
             Output: 3
         """
-        root: TreeNode = TreeNode(3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7)))
+        root: TreeNode = TreeNode(
+            3, TreeNode(9), TreeNode(20, TreeNode(15), TreeNode(7))
+        )
         print(s.maxDepth(root))
 
         """_summary_
