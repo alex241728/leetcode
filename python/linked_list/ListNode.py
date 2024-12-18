@@ -5,6 +5,10 @@ class ListNode:
 
     @staticmethod
     def print(head: "ListNode") -> None:
+        if not head:
+            print("[]")
+            return
+
         print('[', end='')
         while head.next:
             print(head.val, end=", ")
