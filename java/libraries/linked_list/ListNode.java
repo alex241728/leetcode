@@ -9,8 +9,21 @@ public class ListNode {
     this.next = null;
   }
 
-    public ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
+  public ListNode(int val, ListNode next) {
+    this.val = val;
+    this.next = next;
+  }
+
+  public static void println(ListNode head) {
+      if (head == null) {
+          System.out.println("[]");
+      }
+
+      System.out.print('[');
+      while (head.next != null) {
+          System.out.print(head.val + ", ");
+          head = head.next;
+      }
+      System.out.println(head.val + "]");
+  }
 }
