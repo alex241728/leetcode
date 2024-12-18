@@ -1,6 +1,6 @@
 from typing import Optional
 
-from tree.linked_list import ListNode
+from linked_list import ListNode
 
 
 class Solution:

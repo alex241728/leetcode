@@ -1,5 +1,5 @@
 from rotate_list_61.Solution import Solution
-from tree.linked_list.ListNode import ListNode
+from linked_list.ListNode import ListNode
 
 
 class Driver:
