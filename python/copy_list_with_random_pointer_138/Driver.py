@@ -1,4 +1,4 @@
-from copy_list_with_random_pointer.Solution import Solution
+from copy_list_with_random_pointer_138.Solution import Solution
 from linked_list.random_linked_list.Node import Node
 
 
