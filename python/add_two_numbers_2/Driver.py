@@ -1,5 +1,5 @@
 from add_two_numbers_2.Solution import Solution
-from tree.linked_list.ListNode import ListNode
+from linked_list.ListNode import ListNode
 
 
 class Driver:
